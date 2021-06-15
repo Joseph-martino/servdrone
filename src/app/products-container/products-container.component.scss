@@ -14,6 +14,18 @@
     position: absolute;
     bottom: 16%;
     left: 6%;
+    display: flex;
+    flex-direction: column;
+    h2 {
+        margin: 5px 0 5px 0;
+    }
+}
+
+.product-subtitle {
+    font-size: 14px;
+}
+.product-main-title {
+    font-style: 20px;
 }
 
 .blue-highlight {
@@ -24,4 +36,9 @@
     height: 2px;
     width: 70px;
     background-color: $blue;
+}
+
+.btn {
+    width: 35%;
+    margin-top: 15px;
 }

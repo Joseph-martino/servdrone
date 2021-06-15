@@ -28,6 +28,64 @@
     padding: 20px;
 }
 
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.second-section-content-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 25px;
+        width: 26%;
+    }
+}
+
 .second-banner {
     width: 100%;
+}
+
+.drone-features-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drone-features-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    img {
+        margin: 0 15px 0 15px;
+        width: 20rem;
+        height: 30rem;
+    }
+
+    .card-container {
+        position: relative;
+        h2,p {
+            position: absolute;
+            top: 5px;
+            left: 93px;
+            color: black;
+        }
+        p {
+            top: 60px;
+            left: 45px;
+        }
+    }
 }

@@ -1,0 +1,19 @@
+@import "../../style/colours";
+@import "../../style/buttons";
+
+
+.brand-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blue-line {
+    height: 2px;
+    width: 50px;
+    background-color: $blue;
+}
+
+.brand-description-bloc {
+    width: 40%;
+}

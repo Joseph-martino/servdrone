@@ -14,6 +14,7 @@ import { DisplayHeaderService } from './services/display.header.service';
 import { ProductService } from './services/products.service';
 import { IndexComponent } from './index/index.component';
 import { ProductsContainerComponent } from './products-container/products-container.component';
+import { FounderComponent } from './founder/founder.component';
 
 const appRoutes: Routes = [
   { path: '', component: IndexComponent},
@@ -31,7 +32,8 @@ const appRoutes: Routes = [
     TechnologyComponent,
     HeaderComponent,
     IndexComponent,
-    ProductsContainerComponent
+    ProductsContainerComponent,
+    FounderComponent
   ],
   imports: [
     BrowserModule,
