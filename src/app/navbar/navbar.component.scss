@@ -1,0 +1,33 @@
+.nav-container {
+    display: flex;
+}
+
+.logo {
+    width: 15%;
+}
+
+.tabs-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    text-transform: uppercase;
+    list-style-type: none;
+   a {
+    &:visited {color: black;
+    }
+
+    &:hover {
+        border-bottom: 1px, solid, #3848D3;
+    }
+   }
+
+}
+
+.shop-button {
+    background-color: #3848D3;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+

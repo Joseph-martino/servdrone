@@ -1,0 +1,33 @@
+@import "../../style/colours";
+@import "../../style/buttons";
+
+
+.product-description-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-picture, .description-text-container {
+    width: 40%;
+}
+
+.blue-highlight {
+    color: $blue;
+}
+
+.blue-line {
+    height: 2px;
+    width: 10%;
+    background-color: $blue;
+}
+
+.products-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.second-banner {
+    width: 100%;
+}

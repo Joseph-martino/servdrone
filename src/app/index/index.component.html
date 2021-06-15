@@ -1,0 +1,69 @@
+<section class="product-description-container">
+    
+        <img class="product-picture" src="assets/images/products/drone1.png" alt="">
+    
+    <div class="description-text-container">
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <h2>Lorem ipsum <span class="blue-highlight">dolor</span> sit amet</h2>
+        <div class="blue-line"></div>
+        <p>Lorem ipsum dolor sit amet et delectus accommodare his consul 
+            copiosae legendos at vix ad putent delectus delicata usu. Vidit 
+            dissentiet eos cu eum ipsum dolor sit amet et delectus accommodare 
+            his consul copiosae legendos at vix ad putent delectus delicata usu. 
+            Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant 
+            dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. 
+            Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis 
+            mnesarchum qui posse omnium mediocritatem est cu. 
+        </p>
+    </div>
+</section>
+
+<section class="products-list">
+    <app-products-container 
+        *ngFor="let product of productsToDisplay;"
+        [name]="product.name"
+        [price]="product.price"
+        [image]="product.image"
+        [background]="product.background">
+    </app-products-container>
+</section>
+   
+<section class="second-section">
+    <div>
+        <h2 class="section-subtitle">Lorem ipsum dolor sit amet</h2>
+        <h3 class="title">Lorem ipsum dolor sit amet</h3>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet et delectus accommodare his consul 
+            copiosae legendos at vix ad putent delectus delicata usu. Vidit 
+            dissentiet eos cu eum ipsum dolor sit amet et delectus accommodare 
+            his consul copiosae legendos at vix ad putent delectus delicata usu. 
+            Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant 
+            dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. 
+            Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis 
+            mnesarchum qui posse omnium mediocritatem est cu. </p>
+    </div>
+</section>
+
+<img class="second-banner" src="/assets/images/banners/home-second-banner.png" alt="drone banner">
+
+<section class="drone-features-section">
+    <h2>Lorem ipsum <span class="blue-highlight">dolor</span>sit amet</h2>
+    <h3>Lorem ipsum dolor sit amet</h3>
+    <div>
+        <img src="/assets/images/products/homepage-drone-presentation.png" alt="black drone">
+        <div class="drone-features-container">
+            <div class="feature-top-line">
+                <img src="/assets/images/icons/facial-recognition-icon.png" alt="facial recognition feature icon">
+                <img src="/assets/images/icons/photo-icon.png" alt="photo feature icon">
+                <img src="/assets/images/icons/flying-time-icon.png" alt="flying time feature icon">
+                <img src="/assets/images/icons/move-detection-icon.png" alt="move detection feature icon">
+                <img src="/assets/images/icons/video-quality-icon.png" alt="video quality feature icon">
+                <img src="/assets/images/icons/scope-icon.png" alt="scope feature icon">
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
