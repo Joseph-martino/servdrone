@@ -3,6 +3,17 @@
 @import "../../style/responsive";
 
 
+.content-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+
 .horizontal-separator {
     height: 1px;
     width: 14%;
@@ -15,7 +26,7 @@
     row-gap: 3%;
     column-gap: 3%;
     width: 100%;
-    padding: 25px;
+    //padding: 25px;
 }
 
 .explanation-container {
@@ -71,10 +82,6 @@
     }
 
     .content-header {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-
         h2 {
             font-size: 30px;
         }

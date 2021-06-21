@@ -8,12 +8,86 @@
     justify-content: space-around;
 }
 
+.brand-description-bloc {
+    width: 37%;
+}
+
 .blue-line {
     height: 2px;
     width: 50px;
     background-color: $blue;
 }
 
-.brand-description-bloc {
+.presentation-drone-picture {
     width: 40%;
+}
+
+.founders-presentation {
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+    margin: 0 auto;
+    
+}
+
+.founders-pictures-container {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.technology-section {
+    margin: 30px 0 30px 0;
+    padding: 80px;
+}
+
+.vertical-separator {
+    height: 261px;
+    width: 22px;
+    background-color: $blue;
+    margin: 34px 20px 15px 0;
+}
+
+.technology-text-and-separator-container {
+    display: flex;
+    justify-content: space-around;
+    width: 51%;
+}
+
+.technology-content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.technology-text-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.technology-picture {
+    width: 40%;
+    height: auto;
+}
+
+.partners-section {
+    width: 89%;
+    margin: 0 auto;
+}
+
+.partners-section-content-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.partners-logos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 54%;
+}
+
+.partners-text-container {
+    width: 46%;
+    margin: 0 auto;
 }

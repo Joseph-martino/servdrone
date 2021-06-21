@@ -1,0 +1,61 @@
+@import "../../style/colours";
+@import "../../style/buttons";
+@import "../../style/responsive";
+
+.mobile-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    z-index: 30;
+  }
+  
+  .mobile-logo-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .servdrone-logo {
+    width: 67px;
+    height: 34px;
+  }
+
+  .mobile-menu {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    .menu-top-line {
+      width: 75%;
+      height: 3px;
+      margin: 5px auto;
+      background-color: black;
+    }
+  }
+  
+  .bottom-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.links-list {
+    display: flex;
+}
+
+.mobile-menu-icon {
+  width: 30px;
+  height: 25px;
+}
+
+@media #{$media-up} {
+
+}

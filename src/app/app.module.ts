@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ShopCardComponent } from './shop-card/shop-card.component';
 import { BrandComponent } from './brand/brand.component';
 import { TechnologyComponent } from './technology/technology.component';
 import { SupportComponent } from './support/support.component';
@@ -15,6 +16,8 @@ import { ProductService } from './services/products.service';
 import { IndexComponent } from './index/index.component';
 import { ProductsContainerComponent } from './products-container/products-container.component';
 import { FounderComponent } from './founder/founder.component';
+import { MobileNavbarComponent } from './mobile-navbar/mobile-navbar.component';
+
 
 const appRoutes: Routes = [
   { path: '', component: IndexComponent},
@@ -33,11 +36,13 @@ const appRoutes: Routes = [
     HeaderComponent,
     IndexComponent,
     ProductsContainerComponent,
-    FounderComponent
+    FounderComponent,
+    ShopCardComponent,
+    MobileNavbarComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [
     DisplayHeaderService,

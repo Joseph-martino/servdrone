@@ -1,19 +1,19 @@
 @import "../../style/colours";
 @import "../../style/buttons";
-
-.banner-container {
-    position: relative;
-}
+@import "../../style/responsive";
 
 .navbar-container {
-    position: absolute;
-    top:0;
-    left:0;
+    display: none;
 }
 
 .banner {
     width: 100%;
 }
+
+.banner-container {
+    position: relative;
+}
+
 
 .banner-text-container {
     position: absolute;
@@ -22,6 +22,62 @@
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 20px;
     width: 53%;
+}
+
+h3 {
+    width: 75%;
+    font-size: 12px;
+}
+
+.btn {
+    font-size: 12px;
+    padding: 5px 7px;
+}
+
+@media #{$media-up} {
+
+    .navbar-container {
+        display: block;
+    }
+
+    .mobile-navbar-container {
+        display: none;
+    }
+
+    .banner-container {
+        position: relative;
+    }
+
+    .navbar-container {
+        position: absolute;
+        top:0;
+        left:0;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .banner-text-container {
+        position: absolute;
+        top: 37%;
+        left: 4%;
+    }
+
+    h1 {
+        font-size: 60px;
+        width: 53%;
+    }
+
+    h3 {
+        font-size: 30px;
+        width: 100%;
+    }    
+
+    .btn {
+        padding: 10px 25px 10px 25px;
+        font-size: 20px;
+    }
 }
