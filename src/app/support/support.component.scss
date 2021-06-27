@@ -1,7 +1,20 @@
 @import "../../style/colours";
 @import "../../style/buttons";
 @import "../../style/responsive";
+@import "../../style/fonts";
 
+
+h3 {
+    font-family: "Lato Bold";
+}
+
+h2 {
+    font-family: "Roboto Bold";
+}
+
+p {
+    font-family: "Lato Light";
+}
 
 .content-header {
     width: 100%;
@@ -89,10 +102,6 @@
 
     .horizontal-separator {
         width: 20%;
-    }
-
-    .explanations-container-grid {
-        padding: 90px;
     }
 
     .explanation-container {

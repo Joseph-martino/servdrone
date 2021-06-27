@@ -1,1 +1,22 @@
-<p>shop-card works!</p>
+<div *ngIf="product">
+    <div class="product-card">
+        <img class="product-banner" src="{{ product.productCardBackground }}" alt="servdrone product banner">
+        <div class="product-picture-container">
+            <img src="{{ product.image }}" alt="servdrone product picture">
+        </div>
+        <div class="space"></div>
+        <div class="text-content">
+            <h2 class="product-card-title">{{product.name}}</h2>
+            <div class="subtitle-container">
+                <span class="product-card-subtitle">{{ product.feature1}}</span>
+                <span class="product-card-subtitle">{{product.feature2 }}</span>
+            </div>
+            
+            <p class="product-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Ullamcorper habitasse enim mattis volutpat tortor. At ut a vitae diam risus, tempus, 
+                non. Congue non a hac risus volutpat interdum dignissim neque sit. 
+            </p>
+            <p class="product-price">{{ product.price }} €</p>
+            <a class="btn" href="">En savoir plus</a>
+        </div>
+</div>

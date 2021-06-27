@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DisplayHeaderService } from '../services/display.header.service'
 import { ActivatedRoute } from '@angular/router';
-import { ProductInformations } from '../services/products.service';
+import { Product } from '../services/products.service';
 import { ProductService } from '../services/products.service'
 
 @Component({
@@ -11,7 +11,7 @@ import { ProductService } from '../services/products.service'
 })
 export class IndexComponent implements OnInit {
 
-  productsToDisplay: ProductInformations[];
+  productsToDisplay: Product[];
 
   constructor(private productArray: ProductService) { }
 

@@ -1,0 +1,61 @@
+@import "../../style/colours";
+@import "../../style/buttons";
+@import "../../style/fonts";
+
+h2 {
+    font-family: "Lato Bold";
+}
+
+p {
+    font-family: "Lato Light";
+}
+
+.product-card {
+    position: relative;
+}
+
+.product-banner {
+    width: 100%;
+}
+
+
+.product-picture-container {
+    position: absolute;
+    top: 13%;
+    left: 19%;
+    img {
+        height: 145px;
+        width: auto;
+    }
+}
+
+.space {
+    height: 32px;
+    width: 100%;
+}
+
+.product-card-subtitle {
+    font-family: "Roboto Thin";
+    color: $grey;
+}
+
+.text-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.product-card-title {
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 40px;
+    font-size: 28px;
+    margin: 15px 0 0 0;
+}
+
+.product-card-subtitle {
+    margin: 10px 5px 10px 5px;
+}
+

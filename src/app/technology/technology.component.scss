@@ -1,6 +1,19 @@
 @import "../../style/colours";
 @import "../../style/buttons";
+@import "../../style/fonts";
 
+
+h3 {
+    font-family: "Lato Bold";
+}
+
+h2 {
+    font-family: "Roboto Bold";
+}
+
+p {
+    font-family: "Lato Light";
+}
 
 .product-description-container {
     display: flex;
@@ -12,6 +25,7 @@
 }
 
 .blue-highlight {
+    font-family: "Lato";
     color: $blue;
 }
 
@@ -20,6 +34,27 @@
     width: 10%;
     background-color: $blue;
 }
+
+.parallax {
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 385px;
+    margin: 50px 0 50px 0;
+}
+
+.parallax-picture1 {
+    background-image: url(/assets/images/photos/techonology-second-banner.png);
+}
+
+.parallax-picture2 {
+    background-image: url(/assets/images/products/drone-kit.png);
+}
+
+.parallax-picture3 {
+    background-image: url(/assets/images/photos/technology-third-banner.png);
+}
+
 
 .second-banner {
     width: 100%;

@@ -1,27 +1,9 @@
-<div class="product-card">
-    <a class="product-link" href="">
-        <img class="product-banner" src="assets/images/products/products-banner/shop-viking-drone-banner.png" alt="servdrone product banner">
-        <div class="product-picture-container">
-            <img src="assets/images/products/servrdone-viking.png" alt="servdrone product picture">
-        </div>
-        <div class="product-hidden-link-container">
-            <img src="assets/images/products/servrdone-viking.png" alt="servdrone product picture">
-        </div>
-        <div class="space"></div>
-        <div class="text-content">
-            <h2 class="product-card-title">jkhkh</h2>
-            <div class="subtitle-container">
-                <span class="product-card-subtitle">jhkjh</span>
-                <span class="product-card-subtitle">jhkh</span>
-            </div>
-            
-            <p class="product-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Ullamcorper habitasse enim mattis volutpat tortor. At ut a vitae diam risus, tempus, 
-                non. Congue non a hac risus volutpat interdum dignissim neque sit. Feugiat fermentum, 
-                nunc, sed natoque suspendisse elit vitae. Odio sed et volutpat lorem porta congue lobortis ut.
-            </p>
-        </div>
-    </a>
-    <app-shop-card></app-shop-card>
-</div> <!--a mettre dans un composant et boucler, drone dans un fichier à part zet importer les données-->
+<h2>Nos produits</h2>
+
+<div class="products-cards-container">
+        <app-shop-card *ngFor="let product of products"
+        [product]="product"
+        >
+        </app-shop-card>
+</div>
 

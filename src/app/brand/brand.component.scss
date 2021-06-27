@@ -1,6 +1,19 @@
 @import "../../style/colours";
 @import "../../style/buttons";
+@import "../../style/fonts";
 
+
+h3 {
+    font-family: "Lato Bold";
+}
+
+h2 {
+    font-family: "Roboto Bold";
+}
+
+p {
+    font-family: "Lato Light";
+}
 
 .brand-description-container {
     display: flex;

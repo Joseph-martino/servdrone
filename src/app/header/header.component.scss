@@ -1,9 +1,11 @@
 @import "../../style/colours";
 @import "../../style/buttons";
 @import "../../style/responsive";
+@import "../../style/fonts";
 
 .navbar-container {
     display: none;
+    width: 100%;
 }
 
 .banner {
@@ -67,11 +69,13 @@ h3 {
     }
 
     h1 {
+        font-family: "Lato Thin";
         font-size: 60px;
         width: 53%;
     }
 
     h3 {
+        font-family: "Aileron";
         font-size: 30px;
         width: 100%;
     }    
