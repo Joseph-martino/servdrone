@@ -37,6 +37,7 @@ const appRoutes: Routes = [
     IndexComponent,
     ProductsContainerComponent,
     FounderComponent,
+    ShopComponent,
     ShopCardComponent,
     MobileNavbarComponent
   ],
